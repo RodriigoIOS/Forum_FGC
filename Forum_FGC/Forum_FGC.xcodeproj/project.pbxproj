@@ -12,6 +12,11 @@
 		5BB426542E8A111B0073E50B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB426532E8A111B0073E50B /* ViewController.swift */; };
 		5BB426592E8A111D0073E50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB426582E8A111D0073E50B /* Assets.xcassets */; };
 		5BB4265C2E8A111E0073E50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB4265A2E8A111E0073E50B /* LaunchScreen.storyboard */; };
+		5BB426642E8A1C450073E50B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB426632E8A1C450073E50B /* MainTabBarController.swift */; };
+		5BB426662E8A1EA50073E50B /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB426652E8A1EA50073E50B /* ForumViewController.swift */; };
+		5BB426682E8A1EB90073E50B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB426672E8A1EB90073E50B /* FeedViewController.swift */; };
+		5BB4266A2E8A1EC70073E50B /* TournamentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB426692E8A1EC70073E50B /* TournamentsViewController.swift */; };
+		5BB4266C2E8A1ED50073E50B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4266B2E8A1ED50073E50B /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		5BB426582E8A111D0073E50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BB4265B2E8A111E0073E50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BB4265D2E8A111E0073E50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB426632E8A1C450073E50B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		5BB426652E8A1EA50073E50B /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		5BB426672E8A1EB90073E50B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5BB426692E8A1EC70073E50B /* TournamentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsViewController.swift; sourceTree = "<group>"; };
+		5BB4266B2E8A1ED50073E50B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				5BB4264F2E8A111B0073E50B /* AppDelegate.swift */,
 				5BB426512E8A111B0073E50B /* SceneDelegate.swift */,
+				5BB426632E8A1C450073E50B /* MainTabBarController.swift */,
+				5BB4266B2E8A1ED50073E50B /* ProfileViewController.swift */,
+				5BB426692E8A1EC70073E50B /* TournamentsViewController.swift */,
+				5BB426672E8A1EB90073E50B /* FeedViewController.swift */,
 				5BB426532E8A111B0073E50B /* ViewController.swift */,
 				5BB426582E8A111D0073E50B /* Assets.xcassets */,
 				5BB4265A2E8A111E0073E50B /* LaunchScreen.storyboard */,
 				5BB4265D2E8A111E0073E50B /* Info.plist */,
+				5BB426652E8A1EA50073E50B /* ForumViewController.swift */,
 			);
 			path = Forum_FGC;
 			sourceTree = "<group>";
@@ -136,6 +151,11 @@
 			files = (
 				5BB426542E8A111B0073E50B /* ViewController.swift in Sources */,
 				5BB426502E8A111B0073E50B /* AppDelegate.swift in Sources */,
+				5BB4266A2E8A1EC70073E50B /* TournamentsViewController.swift in Sources */,
+				5BB426662E8A1EA50073E50B /* ForumViewController.swift in Sources */,
+				5BB426642E8A1C450073E50B /* MainTabBarController.swift in Sources */,
+				5BB426682E8A1EB90073E50B /* FeedViewController.swift in Sources */,
+				5BB4266C2E8A1ED50073E50B /* ProfileViewController.swift in Sources */,
 				5BB426522E8A111B0073E50B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
